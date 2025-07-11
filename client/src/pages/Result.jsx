@@ -56,13 +56,12 @@ const Result = () => {
             placeholder='e.g., astronaut walking a dog on Mars'
             className='flex-1 bg-white text-black placeholder-gray-500 px-5 py-3 text-sm sm:text-base rounded-l-full focus:outline-none focus:ring-2 focus:ring-blue-400'
           />
-          <button
-            type='submit'
-            className='bg-blue-600 text-white px-4 py-3 text-sm sm:text-base rounded-r-full hover:bg-blue-700 transition-all'
-            
-          >
-            Generate
-          </button>
+              <button
+      type="submit"
+      className="bg-blue-600 text-white px-4 py-3 text-sm sm:text-base rounded-r-full hover:bg-blue-700 transition-all"
+    >
+      Generate
+    </button>
         </div>
       )}
 
