@@ -85,7 +85,7 @@ const Login = () => {
           <img src={assets.lock_icon} alt="" />
           <input onChange={e => setPassword(e.target.value)} value={password} type="password" className='outline-none text-sm' placeholder='Password' required />
         </div>
-
+          <p className='text-sm text-blue-600 my-4 cursor-pointer'>Forget password?</p>
       
 
         <button className='bg-blue-600 w-full text-white py-2 rounded-full'>{state == 'Login' ? 'login' : 'Create Account'}</button>
